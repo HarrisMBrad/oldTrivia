@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { Friday } from './days/off/offdays';
+import offDays from '../../days/off/offdays';
+
 
 function App() {
   return (
@@ -9,17 +12,41 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
+
+      <body>
+        <div className="body">
+          <section>
+            <main>
+              <offDays>
+                <Friday>
+                  <done>
+                    <p>This is what I have done.</p>
+                  </done>
+                </Friday>
+              </offDays>
+            </main>
+          </section>
+          <footer className="body-footer">
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn React
+            </a>
+
+          </footer>
+
+        </div>
+      </body>
     </div>
   );
 }
+
+offDays();
+console.log(`body`);
 
 export default App;
