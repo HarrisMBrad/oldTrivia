@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <code>Review: </code>
+          <code>Review:</code>
 
-          <view>Use this to view again, and technically it is a code review!</view>
+          <view>Use this to view again, and technically it is a code review!</view> 
         </p>
 
       </header>
