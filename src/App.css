@@ -14,18 +14,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(14px + 2vmin);
+  color: #282c34;
+}
+
+.Operational {
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times;
+  color: #3482ac;
+  justify-content: center;
+  text-emphasis: none;
+  height: 100vh;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #a2e8fc;
 }
 
 @keyframes App-logo-spin {
