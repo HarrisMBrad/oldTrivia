@@ -8,19 +8,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Review:</code>
-
-          <view>Use this to view again, and technically it is a code review!</view> 
-        </p>
-
       </header>
-
       <body>
         <div className="body">
 
           <section>
             <main className='Operational'>
+              <h1>You know that big wheel keep on turning</h1>
+              <h3>The hours we keep on burning</h3>
+              <p>And we're rolling, rolling, rolling yeah (rolling)
+                Rolling on the River</p>
 
             </main>
           </section>
@@ -31,7 +28,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React
+              Learn React | Proud Marry
             </a>
 
           </footer>
@@ -43,6 +40,6 @@ function App() {
 }
 
 
-console.log(`App-header`);
+console.log(`Operational`);
 
 export default App;
